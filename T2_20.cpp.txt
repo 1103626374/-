@@ -1,0 +1,22 @@
+/* 这是一个多行注释
+ *
+ * FileName:main.cpp
+ * Author:  张振曦
+ * E-mail:  1103626374@qq.coom
+ * Date:    Mar 6th,2022
+ * College: School of Computer Science and Information Engineering
+ * Function:Find the diameter, circumference and area of the circle.
+ */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+     int r,pi=3.14159;
+     cin>>r;
+     cout<<"面积为"<<pi*r*r<<endl;
+     cout<<"周长为"<<2*pi*r<<endl;
+     cout<<"直径为"<<2*r<<endl;
+    return 0;
+}

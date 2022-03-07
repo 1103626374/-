@@ -1,0 +1,22 @@
+/* 这是一个多行注释
+ *
+ * FileName:main.cpp
+ * Author:  张振曦
+ * E-mail:  1103626374@qq.coom
+ * Date:    Mar 6th,2022
+ * College: School of Computer Science and Information Engineering
+ * Function:Judge whether a number is either odd or even.
+ */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cin>>a;
+    if(a%2==0)
+        cout<<"a是偶数"<<endl;
+    else cout<<"a是奇数"<<endl;
+    return 0;
+}

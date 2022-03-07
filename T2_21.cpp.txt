@@ -1,0 +1,57 @@
+/* 这是一个多行注释
+ *
+ * FileName:main.cpp
+ * Author:  张振曦
+ * E-mail:  1103626374@qq.coom
+ * Date:    Mar 6th,2022
+ * College: School of Computer Science and Information Engineering
+ * Function:Display the graphics with an asterisk.
+ */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"*********"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*********"<<endl;//输出矩形
+    cout<<"         "<<endl;
+    cout<<"   ***   "<<endl;
+    cout<<"  *   *  "<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"*       *"<<endl;
+    cout<<"  *   *  "<<endl;
+    cout<<"   ***   "<<endl;//输出“0”
+    cout<<"         "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"   ***   "<<endl;
+    cout<<"  *****  "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"         "<<endl;
+    cout<<"    *    "<<endl;
+    cout<<"   * *   "<<endl;
+    cout<<"  *   *  "<<endl;
+    cout<<" *     * "<<endl;
+    cout<<"*       *"<<endl;
+    cout<<" *     * "<<endl;
+    cout<<"  *   *  "<<endl;
+    cout<<"   * *   "<<endl;
+    cout<<"    *    "<<endl;
+
+    return 0;
+}

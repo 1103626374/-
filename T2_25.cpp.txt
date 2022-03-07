@@ -1,0 +1,21 @@
+/* 这是一个多行注释
+ *
+ * FileName:main.cpp
+ * Author:  张振曦
+ * E-mail:  1103626374@qq.coom
+ * Date:    Mar 6th,2022
+ * College: School of Computer Science and Information Engineering
+ * Function:Determine whether the two numbers are multiple-related.
+ */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    if(a%b==0) cout<<"两个数是倍数关系"<<endl;
+    else cout<<"两个数不是倍数关系"<<endl;
+    return 0;
+}

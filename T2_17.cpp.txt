@@ -1,0 +1,24 @@
+/* 这是一个多行注释
+ *
+ * FileName:main.cpp
+ * Author:  张振曦
+ * E-mail:  1103626374@qq.coom
+ * Date:    Mar 6th,2022
+ * College: School of Computer Science and Information Engineering
+ * Function:Outputs 1-4 are separated by the spaces.
+ */
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"1 2 3 4\n";//第一个小题
+    cout<<"1 "<<"2 "<<"3 "<<"4 \n";//第二个小题
+    cout<<"1 ";cout<<"2 ";cout<<"3 ";cout<<"4 \n";//第三个小题
+    return 0;
+}

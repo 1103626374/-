@@ -1,0 +1,26 @@
+/* 这是一个多行注释
+ *
+ * FileName:main.cpp
+ * Author:  张振曦
+ * E-mail:  1103626374@qq.coom
+ * Date:    Mar 6th,2022
+ * College: School of Computer Science and Information Engineering
+ * Function:Find the maximum and minimum values of the five integers.
+ */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int max,min,a;
+    cin>>a;max=a;
+    min=a;
+    for(int i=1;i<5;i++)
+        {cin>>a;
+        if(a>max) max=a;
+        else if(a<min) min=a;
+        }
+        cout<<"max="<<max<<"  "<<"min= "<<min<<endl;
+    return 0;
+}
